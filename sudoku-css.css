@@ -1,0 +1,60 @@
+
+h1 {
+    font-family: ‘Lucida Sans Unicode’, ‘Lucida Grande’, sans-serif;
+    margin: 1em auto;
+    color: 	#2f4563;
+    }
+table {
+    margin: auto;
+    margin-bottom: 1em;
+    border: 3px solid #000000;
+}
+
+td:nth-child(3n) {
+  border-right:solid ;
+}
+td:nth-child(9n){
+    border-right: none;
+}
+tr:first-child {
+  border-top:solid;
+}
+tr:nth-child(3n) td {
+  border-bottom:solid ;
+}
+tr:nth-child(9n) td {
+  border-bottom:none ;
+}
+#solve-button {
+    border-radius: 2px;
+    border: 2px;
+    width: 5em;
+    height:1.5em;
+    color: #ffffff;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    background: 	#2f4563;
+    font-size: 1em ;
+}
+#solve-button, textarea{
+    color: #ffffff;  
+}
+.cell-value {
+    width: .875em;
+    height: .875em;
+    font-size: 1.5em;
+    font-family: Tahoma, Geneva, sans-serif;
+    text-align: center; 
+     padding: 0.2em;
+    border: 1px solid black;
+}
+#sudoku-table {
+display: inline-block;  
+}
+#submit-div {
+    display: inline-block;
+}
+
+
+
+
+
