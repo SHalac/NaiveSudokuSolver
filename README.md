@@ -1,1 +1,1 @@
-Naive backtracking algorithm
+Naive backtracking sudoku solving in Javascript.
